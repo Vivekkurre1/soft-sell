@@ -18,9 +18,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "moduleDetection": "force",
+    "useDefineForClassFields": true,
+    "allowImportingTsExtensions": true,
+   /* Linting */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
   },
   "include": [
-    "src"
+    "src",
+    "vite.config.ts",
   ]
 }
